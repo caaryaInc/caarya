@@ -1,0 +1,369 @@
+html, body {
+	position: relative;
+	text-align: center;
+	height: 83%;
+}
+
+#container {
+	height: 100%;
+}
+
+#pagewrap {
+	text-align: left;
+	width: 98%;
+	height: 100%;
+	position: relative;
+	margin-left: 0px;	
+}
+
+#leftpanel {
+	margin-left: 50px;
+	width: 33%;
+	position:relative;
+	height: 98%;
+  }
+
+#pagewrap h2 {
+	margin-top: 20px;
+	font-family: 'Arial Bold';
+	color: #333;
+	font-size: 20px;
+}
+
+ul#info {
+	padding: 0;
+	position: relative;
+	width: 100%;
+	height: 72.5%;
+	
+}
+
+ul#info li {
+	list-style: none;
+	position: relative;
+	padding: 0.5em 3em 0.5em;
+	margin: 6.5% 6.5% 7%;
+	font-size: 15px;
+	color:#000;
+	line-height: 1.28;
+	letter-spacing: 1px;
+	vertical-align: center;
+}
+
+ul li#moneyinfo {
+	background: url('img/moneyicon.png') no-repeat left center;
+}
+
+ul li#tasksinfo {
+	background: url('img/tasksicon.png') no-repeat left center;
+	margin-left: 20px;
+	padding-left: 3.5em;
+}
+
+#mapholder {
+	position: relative;
+	top: -15px;
+	width: 57.5%; 
+	margin-bottom: 10px;
+	height: 98%;
+}
+
+#map {
+	overflow: hidden;
+	height: 98%;  
+}
+
+.effect2 {
+	position: relative;
+}
+
+.effect2:before, .effect2:after {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	width: 40%;
+	top: 80%;
+	max-width:210px;
+  background: #777;
+	left: 12px;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+
+
+#sitedesc li{
+	list-style: none;
+	display: inline;
+	margin-left: 20px;
+	padding-left: 1.8em;
+	background: url('img/ico-style4.png') no-repeat left center;
+}
+
+
+
+#registerbox {
+	width: 85%;
+	height: 11%;
+	padding-top: 4%;
+	padding-bottom: ۱%;
+	background: -moz-linear-gradient(
+		top,
+		rgb(151, 212, 114) 0%,
+		rgb(82, 146, 65));
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(rgb(151, 212, 114)),
+		to(rgb(82, 146, 65))); 
+
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.7),
+		inset 0px 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.7),
+		inset 0px 0px 0px rgb(0, 0, 0);
+	box-shadow:
+		0px 1px 3px black; 
+
+}
+
+.number {
+	font-size: 41px;
+	font-weight: normal;
+	font-family: eurostile;
+}
+
+.regheadmenu {
+	display:inline-block;
+	vertical-align: middle;
+	position: relative;
+	height: 100%;
+}
+
+.regbox{
+	width: 52%;
+	margin-top:-2px; 
+	margin-left: 9%;
+}
+
+.rbox{
+	width: 2px; 
+	margin-left:0%; 
+	margin-right: 1%;
+	margin-top: -20px;
+	border-left: 2px solid #86ac6a;
+}
+
+.connect{
+	width: 33%; 
+	right: 0px; 
+	margin-left: 0%;
+	margin-right: 0.5%;
+}
+
+/* iPads (portrait) ----------- */
+	@media only screen 
+	and (min-device-width : 768px) 
+	and (max-device-width : 1024px)
+	and (orientation : portrait) {
+	/* Styles */
+		ul#info{
+			padding: 0;
+			position: relative;
+			width: 100%;
+			height: 55%;
+			margin-top: 58%;
+		}
+
+		#registerbox{
+			margin-top: 0%;
+		}
+
+		#mapholder {
+			margin-top: 15%;
+			width: 59%;
+			height:600px;
+			margin-right: 20px;
+		}
+
+		#map {
+			overflow: hidden;
+			height: 600px;  
+		}
+
+		ul#info li {
+			margin: 6.5% 6.5% 13%;
+			font-size: 15px;
+		}
+
+		.rbox{
+			margin-right: 0.5%;
+		}
+	}
+
+/* iPads (landscape) ----------- */
+	@media only screen 
+	and (min-device-width : 768px) 
+	and (max-device-width : 1024px)
+	and (orientation : landscape) {
+	/* Styles */
+
+		#mapholder {
+			margin-right: 20px;
+		}
+
+		ul#info li {
+			font-size: 15px;
+		}
+
+		.number {
+			font-size: 44px;
+			font-weight: normal;
+			font-family: eurostile;
+		}
+
+		.rbox {
+			margin-right: 0.5%;
+		}
+	}
+
+/*Iphone */
+
+	@media screen and (device-width:320px) and (orientation:landscape) {
+		/* iPhone Landscape Styles Here*/
+			
+		html, body {
+			position: relative;
+			text-align: center;
+			height: 500px;
+		}
+
+		#mapholder {
+			height:460px;
+		}
+
+		#map {
+			height: 460px;  
+		}
+			
+		.rbox {
+			margin-right: 0%;
+		}
+
+		#registerbox {
+			margin-top: 0%;
+		}
+	}
+
+	@media screen and (device-width:320px) and (orientation:portrait) {
+		/* iPhone Portrait Styles Here*/
+				
+		html, body {
+			position: relative;
+			text-align: center;
+			height: 500px;
+		}
+
+		#mapholder {
+			height:460px;
+		}
+
+		#map {
+			height: 460px;  
+		}
+
+		.rbox {
+			margin-right: 0%;
+		}
+
+		#registerbox {
+			margin-top: 0%;
+		}
+	}
+
+/* Android */
+
+	@media
+	only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation:landscape), 
+	only screen and (min--moz-device-pixel-ratio: 1.5) and (orientation:landscape), 
+	only screen and (min-device-pixel-ratio: 1.5) and (orientation:landscape) {
+
+	/* Your styles here. */
+
+		html, body {
+			position: relative;
+			text-align: center;
+			height: 500px;
+		}
+
+		#mapholder {
+			height:460px;
+		}
+
+		#map {
+			height: 460px;  
+		}
+			
+		.rbox {
+			margin-right: 0%;
+		}
+
+		#registerbox {
+			margin-top: 0%;
+		}
+
+	}
+
+
+	@media
+	only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation:portrait), 
+	only screen and (min--moz-device-pixel-ratio: 1.5) and (orientation:portrait), 
+	only screen and (min-device-pixel-ratio: 1.5) and (orientation:portrait) {
+
+	/* Your styles here. */
+
+			
+		html, body {
+			position: relative;
+			text-align: center;
+			height: 500px;
+		}
+
+		#mapholder {
+			height:460px;
+		}
+
+		#map {
+			height: 460px;  
+		}
+
+		.rbox {
+			margin-right: 0%;
+		}
+
+		#registerbox {
+			margin-top: 0%;
+		}
+
+	}

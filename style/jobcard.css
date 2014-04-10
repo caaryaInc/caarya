@@ -1,0 +1,128 @@
+.jobs{
+//	border: 1px solid black;
+	margin: 0px;
+	padding: 3px;
+	padding-top: 5px; 
+	padding-bottom: 5px;
+	height: 66px;
+	width: 394px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #666;
+	cursor: pointer;
+	border-bottom: 1px solid #c7c7c7;
+}
+
+.jobdiv{
+	margin-right: auto;
+	margin-left: auto;
+//	border: 1px solid black;
+	width: 420px;
+}
+
+
+.jobs .jobtype{
+//	border: 1px solid black;
+	float: left;
+	margin-top: 15px;
+	margin-right: 7px;
+}
+
+.jobs .jdetails{
+//	border: 1px solid red;
+	display: inline-block;
+	width: 58.5%;
+	margin-left: 2%;
+	height: 50px;
+	margin-top: 10px;
+}
+
+
+.jobs .jname{
+//	border: 1px solid red;
+	font-weight: 690;
+	font-size: 13px;
+	color: #000;
+	height: 25px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	width: 100%;
+	white-space: nowrap;
+}
+
+.jobs .jadd{
+//	border:1px solid yellow;
+	font-size: 11px;
+	height: 20px;
+	margin-top: -3px;
+	line-height: 13px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	width: 100%;
+	white-space: nowrap;
+}
+
+.jobs .jextras{
+//	border: 1px solid green;
+	float: right;
+	margin-right: 0px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.jobs .jamt{
+	font-size: 18px;
+//	text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(51,51,51,.7);
+	color: #333;
+	font-weight: 300;
+	height: 25px;
+//	border: 1px solid blue;
+	font-family: "myriad-pro",sans-serif;
+ }
+
+.jobs .time{
+	font-size: 12px;
+	display: inline-block;
+	//text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+	color: #333;
+	font-weight: 300;
+//	border: 1px solid black;
+	height: 20px;
+	margin-top: -3px;
+}
+
+.jobs .time img{
+	margin-right: 0px;
+	height: 11px;
+}
+
+.jobs .timeval{
+//	border: 1px solid blue;
+}
+
+.jobs .jdesc{
+//	border: 1px solid black;
+	align: justify;
+	display:none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	word-break: break-all;
+	line-height: 22px;
+	font-size: 12px;
+}
+
+.jobs .jdesc p{
+	font-size: 11px;
+	color: #7f7f7f;
+}
+
+.jobs .desc{
+//	border: 1px solid black;
+//	text-indent: 20px;
+}
+
+.jobs .jdesc img{
+//	border: 1px solid black;
+	margin-left: 5px;
+	margin-right: 30px;
+}

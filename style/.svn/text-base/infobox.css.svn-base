@@ -1,0 +1,135 @@
+
+/* Code for infobox */
+
+#infobox {
+	height: 69px;
+	width: 250px;
+	padding: 5px;
+	padding-bottom:13px;
+	background: -moz-linear-gradient(
+		top,
+		rgb(106, 192, 214) 0%,
+		rgb(90, 175, 195));
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(rgb(106, 192, 214)),
+		to(rgb(90, 175, 195)));
+
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.7),
+		inset 0px 0px 0px rgb(0, 0, 0);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.7),
+		inset 0px 0px 0px rgb(0, 0, 0);
+	box-shadow:
+		0px 1px 3px black;
+	overflow: hidden;
+	
+}
+
+
+#infobox .column1{
+	vertical-align: top;
+	border: 4px solid black;
+	
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	
+	width:80px;
+	height:71px;
+}
+
+#infobox:after {
+    content:"";
+    border-color: #000 transparent transparent transparent;
+    border-style:solid;
+    border-width:12px;
+    width:0;
+    height:0;
+    position:fixed;
+    bottom:-20px;
+    left:41px;
+	z-index: 10;
+}
+
+
+#infobox .column2{
+	vertical-align: top;
+	width: 100px;
+	height: 75px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+
+#infobox .infodesc{
+	font-size: 15px;
+	color:black;
+	font-weight: bold;
+}
+
+#infobox .infoamt{
+	font-size: 32px;
+	text-align: left;
+	color:white;
+	margin-top: 10px;
+}
+
+#infobox .datetime{
+	color: black;
+	 display: inline-block;
+	margin-top: 10px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+	font-size: 11px;
+}
+
+#infobox .time{
+	display: inline-block;
+}
+
+
+#infobox .date{
+	display: inline-block;
+	margin-left: 17px;
+}
+
+
+#infobox .arrow{
+width: 48px;
+height: 87px;
+background:url('img/infoarrow.png');
+background-size:100% 100%;
+-webkit-background-size:100% 100%;
+-khtml-background-size:100% 100%; 
+-moz-background-size:100% 100%; 
+margin-top: -5px;
+margin-right:-5px;
+cursor: pointer;
+}
+
+.boxclose{
+	z-index: -10;
+    cursor:pointer;
+    color: #fff;
+    border: 1px solid white;
+	padding: 6px 4px 12px 6px;
+	border-radius: 18px;
+    background: red;
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    position: fixed;
+	display:block;
+	right: -10px;
+	top: -10px
+}
+
+.boxclose:before {
+    content: "x";
+}  

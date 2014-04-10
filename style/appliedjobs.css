@@ -1,0 +1,350 @@
+#appliedjobscontainer{
+//	border: 1px solid blue;
+	width: 1220px;
+	height: 500px;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-left: 0px;
+	padding-top: 0px;
+}
+
+#msginfo{
+//	border:1px solid black;
+	margin-left: 50%;
+	margin-top: 5%;
+}
+
+#msginfo img{
+	height: 200px;
+	width: 200px;
+}
+
+.noappliedjobs{	
+	position: absolute;
+	margin-left: 45%;
+	margin-top: 15%;
+	height: 100px;
+}
+
+.noappliedjobs img{
+	height: 80px;
+	float: left;
+}
+
+.noappliedjobs p{
+	float: right;
+	margin-top: 20px;
+	font-family: Lato;
+	font-weight: bold;
+}
+
+.noappliedjobs p span{
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#japplied{
+	border-right: 1px solid #d8d8d8;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	width: 420px;
+	height: 417px;
+	margin-top: 3px;
+	padding-top: 23px;
+	overflow: auto;
+	float: left;
+	//background-color: #fff;
+}
+
+
+.middlecol{
+	width: 380px;
+	margin-left: 20px;
+	display: inline-block;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-right: 1px solid #d8d8d8;
+	height: 450px;
+}
+
+.rightcol{
+//	border: 1px solid red;
+	width: 380px;
+	float: right;
+	height: 450px;
+	border-right: 1px solid #d8d8d8;
+}
+
+.appliedjobdiv{
+	margin-right: auto;
+	margin-left: auto;
+//	border: 1px solid black;
+	width: 420px;
+}
+
+.msgicon{
+//	border: 1px solid black;
+	margin-left: 40px;
+}
+
+#msgsexchanged{
+//	border: 1px solid green;
+	height: 100%;
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 10%;
+}
+
+#einfo{
+//	border: 1px solid black;
+	height: 100%;
+	width: 360px;
+	font-family: Arial;
+}
+
+#eheader{
+//	border: 1px solid #c7c7c7;
+	color: #000;
+}
+
+#eheader p{
+	margin-top: 0px;
+	font-size: 15px;
+	color: rgb(122,122,122);
+	font-weight: bold;
+	font-family: Calibri;
+}
+
+#edetails{
+//	border: 1px solid red;
+	margin-top: 14px;
+}
+
+.einfolist li{
+//	border: 1px solid black;
+	padding: 5px;
+}
+
+#namenpic{
+	padding-bottom: 15px;
+}
+
+#empic{
+//	border: 1px solid black;
+	float: left;
+	height: 80px;
+}
+
+#empic img{
+	height: 100%;
+}
+
+.en{
+//	border: 1px solid black;
+	display:inline-block;
+	height: 80px;
+	margin-top: 0px;
+	margin-left: 10px;
+	font-size: 13px;
+}
+
+.label{
+	margin-top: 10px;
+	margin-bottom: 10px;
+//	border: 1px solid black;
+}
+
+.labeltitle{
+//	border: 1px solid black;
+	float: left;
+	width: 90px;
+	font-size: 12px;
+}
+
+.opv{
+	width: 50%;
+}
+
+.opvval{
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.labelval{
+//	border: 1px solid blue;
+	display:inline-block;
+	font-size: 13px;
+	font-family: Arial;
+	width: 250px;
+}
+
+.infocaption{
+	font-weight: bold;
+	font-size: 12px;
+//	border: 1px solid black;
+}
+
+#showapplicantmsg{
+	width: 360px;
+	height: 310px;
+	padding-bottom: 5px;
+	background: #fff;
+	margin-bottom: 25px;
+	overflow: auto;
+}
+
+#applicantmsgform{
+	height: 40px;
+	width: 360px;
+	margin-top: 10px;
+}
+
+
+#applicantmsgarea{
+	border: 1px solid #ccc;
+	float: left;
+	height: 100%;
+	width: 290px;
+}
+
+#empinfo {
+	position: relative;
+	text-align: justify;
+//	border: 1px solid black;
+	width: 225px;
+	margin-top: 90px;
+	margin-left: 750px;
+}
+
+#empinfo img{
+	width: 225px;
+	height: 225px;
+}
+
+#empinfo p{
+	font-size: 13px;
+	font-family: Arial;
+	text-align: center;
+	color: #666;
+}
+
+.nomsgdiv{
+	position: absolute;
+	text-align: justify;
+//	border: 1px solid black;
+	width: 175px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.nomsgdiv img{
+	margin-left: 70px;
+}
+
+.nomsgdiv p{
+	font-size: 13px;
+	font-family: Arial;
+	text-align: center;
+	color: #666;
+}
+
+
+@media (max-width: 800px) {
+
+}
+
+
+@media (min-width: 800px) and (max-width: 1024px) {
+/*	#appliedjobscontainer{
+		width: 960px;
+	}
+	
+	#japplied{
+		width: 420px;
+	}
+
+	.middlecol{
+		width: 270px;
+	}
+
+	.rightcol{
+		width: 270px;
+	}*/
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) and (max-height: 600px) {
+/*	#appliedjobscontainer{
+		height: 360px;
+		width: 1280px;
+	}
+
+	#japplied{
+		width: 420px;
+	}
+
+	.middlecol{
+		width: 360px;
+	}
+
+	.rightcol{
+		width: 360px;
+		margin-right: 100px;
+	}
+
+	#msgsexchanged{
+		height: 360px;
+	}
+
+	#showapplicantmsg{
+		width : 350px;
+	}
+
+	#applicantmsgform{
+		width: 350px;
+	}
+
+	#applicantmsgarea{
+		width: 270px;
+	}*/
+}
+
+@media (min-width: 1370px) {
+	#appliedjobscontainer{
+		height: 360px;
+		width: 1860px;
+	//	border: 1px solid black;
+	}
+
+	#japplied{
+		width: 500px;
+	//	border: 1px solid red;
+	}
+
+	.middlecol{
+		width: 500px;
+	//	border: 1px solid red;
+	}
+
+	.rightcol{
+		width: 500px;
+		border: 1px solid red;
+	}
+
+	#einfo{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#showapplicantmsg{
+		width : 620px;
+		border: 1px solid black;
+	}
+
+	#applicantmsgform{
+		width: 620px;
+	}
+
+	#applicantmsgarea{
+		width: 270px;
+	}
+}

@@ -1,0 +1,443 @@
+/* For search form */
+
+#searchbox{
+//	border: 1px solid red;
+	position: absolute;
+	z-index: 10;
+	float: left;
+	background: -moz-linear-gradient(top, rgba(253,253,253,1) 0%, rgba(245,241,241,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(253,253,253,1)), color-stop(100%,rgba(245,241,241,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(253,253,253,1) 0%,rgba(245,241,241,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(253,253,253,1) 0%,rgba(245,241,241,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(253,253,253,1) 0%,rgba(245,241,241,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(253,253,253,1) 0%,rgba(245,241,241,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f5f1f1',GradientType=0 ); /* IE6-8 */
+	height: 440px;
+	width: 360px;
+	left: 60px;
+	margin-top: 40px;
+	overflow: hidden;
+}
+
+.effect7
+{
+  	position:relative;       
+    -webkit-box-shadow:0 4px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 4px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 4px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 1px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 1px rgba(0,0,0,0.8);
+    box-shadow:0 0 1px rgba(0,0,0,0.8);
+    top:1px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    -moz-border-radius:10px / 1px;
+    border-radius:10px / 1px;
+} 
+.effect7:after
+{
+	right:0px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+    -moz-transform:skew(8deg) rotate(3deg);     
+    -ms-transform:skew(8deg) rotate(3deg);     
+    -o-transform:skew(8deg) rotate(3deg); 
+    transform:skew(8deg) rotate(3deg);
+}
+
+#searchform{
+//	border: 1px solid green;
+
+}
+
+#resultpanel{
+	height: 300px;
+//	border: 1px solid black;
+	margin-top: 1px;
+	width: 100%;
+	overflow: auto;
+	position: relative;
+}
+
+#searchbar{
+	border: 1px solid #b3b3b3;
+	border-left: none;
+	border-right: none;
+	width: 100%;
+	color: rgb(199, 199,199);
+	font-size: 14px;
+/*	box-shadow: inset 0 0 10px -10px -10px #dadada;
+	-moz-box-shadow:    inset 0 0 10px -10px #dadada;
+	-webkit-box-shadow: inset 0 0 10px -10px #dadada; */
+	margin-top: 0px;
+	background: white url(img/searchicon.png) no-repeat;
+	background-size: 15px 15px;
+	padding-right: 20px;
+	background-position: right 10px top 4px;
+}
+
+#searchbutton{
+	background: rgb(103, 162, 50);
+	width: 28%;
+	position: absolute;
+	right: 0px;
+	top: -2px;
+	padding: 4px;
+	color: rgb(248, 249, 244);
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#dropdownoptions{
+	height: 50px;
+//	border: 1px solid black;
+}
+
+
+.ddboxes{
+	display: inline-block;
+	margin: 3.5% 2% 0% 2%;
+	width: 28%;
+	vertical-align: top;
+//	background: -webkit-linear-gradient(top,rgb(238,238,238), rgb(245,245,245));
+//	background: -moz-linear-gradient(top,rgb(238,238,238), rgb(245,245,245));
+	border: 1px solid #b3b3b3 !important;
+	background: #fff;
+}
+
+
+.selectstyle select {
+   background: transparent;
+   width: 102%;
+   height: 20px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+	border: 0px transparent;
+}
+
+#searchform .arrow{
+  float: right;
+  width: 0; 
+  height: 0;
+  border-top: 9px solid grey;
+  border-left: 4.5px solid transparent;
+  border-right: 4.5px solid transparent;
+  margin-top: -14px;
+  right: 5px;
+  position: relative;
+
+ }
+
+
+#mpicon{
+	margin: 8px 5px 12px 0px;
+	height: 60%;
+	width: 8%;
+	display: inline-block;
+	background: -webkit-linear-gradient(top,rgb(238,238,238), rgb(245,245,245));
+	background: -moz-linear-gradient(top,rgb(238,238,238), rgb(245,245,245));
+}
+
+#pin{
+	padding: 2px 0px 2px 7px;
+	height: 60%;
+	width: 50%;
+}
+
+#btnpanel{
+	border: 1px solid #b3b3b3;
+	border-right: 0px transparent;
+	border-left: 0px transparent;
+	height: 45px;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 4px 6px -6px #777;
+	-moz-box-shadow: 0px 4px 6px -6px #777;
+	box-shadow: 0px 4px 6px -6px #777;
+}
+
+.panelbutton{
+	display: inline-block;
+	margin: 0px;
+	width: 14%;
+	vertical-align: top;
+	height: 50px;
+	background: #f7f4f7; 
+	background: -moz-linear-gradient(top,  #f7f4f7 0%, #e0e0e0 100%, #207cca 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f4f7), color-stop(100%,#e0e0e0), color-stop(100%,#207cca)); 
+	background: -webkit-linear-gradient(top,  #f7f4f7 0%,#e0e0e0 100%,#207cca 100%); 
+	background: -o-linear-gradient(top,  #f7f4f7 0%,#e0e0e0 100%,#207cca 100%); 
+	background: -ms-linear-gradient(top,  #f7f4f7 0%,#e0e0e0 100%,#207cca 100%); 
+	background: linear-gradient(to bottom,  #f7f4f7 0%,#e0e0e0 100%,#207cca 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f4f7', endColorstr='#207cca',GradientType=0 ); 
+	//background-color: rgb(221,232,236);
+	text-align: center;
+	margin-right: -4px;
+	cursor: pointer;
+	border: 1px solid white;
+	-webkit-box-shadow: 0px 1px 2px 0px #777;
+	-moz-box-shadow: 0px 1px 2px 0px #777;
+	box-shadow: 0px 1px 2px 0px #777;
+}
+
+.typeimage{
+	height: 100%;
+	width: 100%;
+	padding: 5px 7px 3px 1px;
+	text-align: center;
+}
+
+.typefont{
+	font-size: 10px;
+}
+
+
+/* For inforesult in search.php */
+.inforesult{
+//	border-bottom: 1px solid #a1a1a1; 
+	margin: 0px;
+	padding: 5px; 
+	height: 48px;
+	color: #666;
+	//vertical-align: middle;
+	cursor: pointer;
+	padding: 8px 10px 5px 10px;
+}
+
+#upic{
+//	border: 1px solid blue;
+	float: left;
+	width: 15%;
+	height: 85%;
+	margin-top: 4px;
+
+}
+
+#jdetails{
+	//border: 1px solid red;
+	display: inline-block;
+	width: 58.5%;
+	margin-left: 2%;
+	height: 85%;
+}
+
+
+#jname{
+//	border: 1px solid red;
+	font-weight: 670;
+	font-size: 11.5px;
+	color: #000;
+	height: 47%;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	width: 100%;
+	white-space: nowrap;
+	margin-top: 1px;
+}
+
+#jadd{
+//	border:1px solid yellow;
+	font-size: 11px;
+	height: 40%;
+	line-height: 120%;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	width: 98%;
+	white-space: nowrap;
+}
+
+#jextras{
+//	border: 1px solid green;
+	float: right;
+	margin-right: -3px;
+	width: 70px;
+}
+
+#jamt{
+	font-size: 18px;
+	padding: 1% 0% 4% 0%;
+//	text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(51,51,51,.7);
+	color: #333;
+	font-weight: 300;
+	height: 40%;
+//	border: 1px solid blue;
+	margin-top: 3px;
+	font-family: "myriad-pro",sans-serif;
+	float:left;	
+ }
+
+#imgntime{
+//	border: 1px solid blue;
+	float:left;
+}
+
+#time{
+	font-size: 11px;
+	display: inline-block;
+	//text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+	color: #333;
+	font-weight: 300;
+	//border: 1px solid black;
+	height: 40%;
+}
+
+#imgntime img{
+	margin-right: 6px;
+	height: 15px;
+	width: 15px;
+//	border: 1px solid black;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.line{
+	border: 0;
+    height: 1px;
+    background: #a1a1a1;
+	margin: 0px 5px;
+}
+
+#resultpanel::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+#resultpanel::-webkit-scrollbar-track {
+  //  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	 background: #EEE;
+    border-radius: 10px;
+}
+ 
+#resultpanel::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+	background: #EEE;
+ //   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+#resultpanel:hover::-webkit-scrollbar-thumb{
+    background: #ccc;
+	border: 1px solid #CCC;
+}
+
+/* Android */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation:landscape), 
+only screen and (min--moz-device-pixel-ratio: 1.5) and (orientation:landscape), 
+only screen and (min-device-pixel-ratio: 1.5) and (orientation:landscape) {
+
+/* Your styles here. */
+#searchbox{
+	height: 310px;
+	width: 310px;
+	left: 20px;
+	top: 57px;
+	overflow: hidden;
+} 
+
+#inforesult{
+	height: 24%;
+}
+	
+#dropdownoptions{
+	height: 35px;
+}	
+		
+.ddboxes{
+	margin: 2% 1.5% 0% 1.5%;
+}
+
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation:portrait), 
+only screen and (min--moz-device-pixel-ratio: 1.5) and (orientation:portrait), 
+only screen and (min-device-pixel-ratio: 1.5) and (orientation:portrait) {
+
+/* Your styles here. */
+
+	#searchbox{
+		height: 450px;
+		width: 360px;
+		left: 4%;
+		top: 10%;
+	} 
+
+}
+
+@media (max-width: 800px) {
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1280px) and (max-height: 600px)  {
+/*	#searchbox{
+		width: 360px;
+		left: 60px;
+		height: 64%;
+		margin-top: 1.8%;
+	}
+
+	.inforesult{
+	//	border: 1px solid black;
+		height: 40px;
+	}
+
+	#dropdownoptions{
+		height: 45px;
+	}
+
+	.ddboxes{
+		margin: 3% 2% 0% 2%
+	}
+
+	#btnpanel{
+		height: 40px;
+	}
+
+	.panelbutton{
+		height: 45px;
+	}
+		
+
+/*	#jdetails{
+	//	border: 1px solid red;
+		width: 57%;
+	}
+
+	#jextras{
+	//	border: 1px solid blue;
+		width: 60px;
+	}
+
+	#resultpanel{
+		height: 300px;
+	} */
+}
+
+@media (min-width: 1370px) {
+	#searchbox{
+		height: 600px;
+		width: 500px;
+		left: 120px;
+		margin-top: 60px;
+	}
+
+	.ddboxes{
+		margin-top: 3%;
+	}
+
+	.panelbutton{
+		width: 13.8%;	
+	}
+
+}

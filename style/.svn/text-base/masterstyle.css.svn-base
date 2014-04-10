@@ -1,0 +1,699 @@
+/* Masterstyle
+	Common style sheet for all elements 
+*/
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+
+    margin: 0;
+
+    padding: 0;
+
+    border: 0;
+
+    font-size: 100%;
+
+    font: inherit;
+
+    vertical-align: baseline;
+
+}
+
+
+
+article,aside,details,figcaption,figure,header,hgroup,menu,nav,section {
+
+    display: block;
+
+}
+
+
+
+body {
+
+    line-height: 1;
+
+}
+
+
+
+ol,ul {
+
+    list-style: none;
+
+}
+
+
+
+blockquote,q {
+
+    quotes: none;
+
+}
+
+
+
+blockquote:before,blockquote:after,q:before,q:after {
+
+    content: '';
+
+    content: none;
+
+}
+
+
+
+table {
+
+    border-collapse: collapse;
+
+    border-spacing: 0;
+
+}
+
+
+
+html,div,map,dt,isindex,form {
+
+    display: block;
+
+}
+
+
+
+header,nav,article,footer,address {
+
+    display: block;
+
+}
+
+
+
+body {
+
+    background: #fff url("  ") repeat left top scroll;
+
+    color: #777;
+
+    line-height: 18px;
+
+    width: 100%;
+
+    min-width: 1000px;
+
+    font-family: arial;
+
+    font-size: 12px;
+
+}
+
+
+
+.clearfix:after,.clear:after,blockquote:after {
+
+    content: ".";
+
+    display: block;
+
+    height: 0;
+
+    overflow: hidden;
+
+    clear: both;
+
+    visibility: hidden;
+
+}
+
+
+
+embed,iframe,object {
+
+    border: 0;
+
+    width: 100%;
+
+    max-width: 100%;
+
+}
+
+
+
+.center {
+
+    text-align: center;
+
+}
+
+
+
+.aligncenter {
+
+    display: block !important;
+
+    margin: auto auto 20px;
+
+    text-align: center;
+
+}
+
+
+
+.alignleft {
+
+    float: left;
+
+    margin: 0 20px 20px 0;
+
+}
+
+
+
+.alignright {
+
+    float: right;
+
+    margin: 0 0 20px 20px;
+
+}
+
+
+
+.left {
+
+    float: left;
+
+}
+
+
+
+.right {
+
+    float: right;
+
+}
+
+
+
+.clear {
+
+    clear: both;
+
+}
+
+
+
+.cleanmargin {
+
+    margin: 0 !important;
+
+}
+
+
+
+.cleanmargin-bottom {
+
+    margin-bottom: 0 !important;
+
+}
+
+
+
+.cleanpadding {
+
+    padding: 0 !important;
+
+}
+
+
+
+.clean-line {
+
+    line-height: normal !important;
+
+}
+
+
+
+a {
+
+    color: #2877ae;
+
+    text-decoration: none;
+
+}
+
+
+
+a:focus,a:active,a:hover {
+
+    text-decoration: none;
+
+}
+
+
+
+small {
+
+    font-size: 11px;
+
+    line-height: 16px;
+
+}
+
+
+
+strong,b,.bold {
+
+    font-weight: 700;
+
+    color: #333;
+
+}
+
+
+
+.normal {
+
+    font-weight: 400;
+
+}
+
+
+
+.hidden {
+
+    display: none;
+
+}
+
+
+
+pre,code {
+
+    font-family: "Lucida Sans Typewriter","Lucida Console";
+
+    line-height: 16px;
+
+}
+
+
+
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover {
+
+    text-decoration: none;
+
+}
+
+
+
+#main h1 {
+
+    font-family: Oswald;
+
+    font-size: 26px;
+
+    margin: 0 0 10px;
+
+    font-weight: 700;
+
+}
+
+
+
+#main h2 {
+
+    font-size: 22px;
+
+    margin: 0 0 10px;
+
+    font-weight: 400;
+
+}
+
+
+
+#main h3 {
+
+    font-size: 18px;
+
+    margin: 0 0 10px;
+
+    font-weight: 700;
+
+}
+
+
+
+#main h4 {
+
+    font-size: 16px;
+
+    margin: 0 0 10px;
+
+    font-weight: 400;
+
+}
+
+
+
+#main h5 {
+
+    font-size: 12px;
+
+    margin: 0 0 10px;
+
+    font-weight: 700;
+
+}
+
+
+
+#main h6 {
+
+    font-size: 12px;
+
+    margin: 0 0 10px;
+
+    font-weight: 400;
+
+}
+
+
+
+#main h1.entry-title {
+
+    background: url(design/img/title-striped-bg.png) repeat-x 0 15px;
+
+    line-height: 40px;
+
+    margin: 0 0 10px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+}
+
+
+
+h1.entry-title a,h1.entry-title span {
+
+    background: #fff;
+
+    padding: 0 20px;
+
+}
+
+
+
+hr {
+
+    background: url(design/img/title-striped-bg.png) repeat-x;
+
+    border: 0;
+
+    clear: both;
+
+    height: 10px;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+cite,em,i {
+
+    font-style: italic;
+
+}
+
+
+
+blockquote {
+
+    font-family: Georgia,"Bitstream Charter",serif;
+
+    font-style: italic;
+
+    font-weight: 400;
+
+}
+
+
+
+blockquote em,blockquote i,blockquote cite {
+
+    font-style: normal;
+
+}
+
+
+
+blockquote cite {
+
+    color: #666;
+
+    font: 12px "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    font-weight: 300;
+
+    letter-spacing: .05em;
+
+    text-transform: uppercase;
+
+}
+
+
+
+abbr,acronym,dfn {
+
+    border-bottom: 1px dotted #666;
+
+    cursor: help;
+
+}
+
+
+
+ins {
+
+    background: #fff9c0;
+
+    text-decoration: none;
+
+}
+
+
+
+
+
+.defaultContentWidth {
+
+	height: 125px;
+
+	margin-left: 83px;
+
+	margin-right: 83px;
+
+}
+
+#menucontainer .defaultContentWidth{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+
+#page {
+
+    margin: 0 auto;
+
+}
+
+
+
+
+#page.narrow {
+
+    width: 1000px;
+
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+
+}
+
+
+
+#branding {
+
+background:url('img/topbar.png') no-repeat;
+height: 125px;
+background-size:100% 100%;
+-webkit-background-size:100% 100%;        /*  Safari  */
+-khtml-background-size:100% 100%;         /*  Konqueror  */
+-moz-background-size:100% 100%;           /*  Firefox  */
+
+
+}
+
+
+
+#logo {
+
+    padding: 0px 0px 35px 25px;
+
+	margin-left: 50px;
+
+}
+
+
+
+#logo img {
+
+    display: block;
+
+}
+
+
+input[type=text],input[type=password],textarea {
+
+    border: 0;
+
+}
+
+
+
+input[type=text]:focus,textarea:focus {
+
+    color: #373737;
+
+}
+
+
+
+textarea {
+
+    padding-left: 3px;
+
+    width: 98%;
+
+}
+
+
+
+input[type=text] {
+
+    padding: 3px;
+
+}
+
+
+ 
+@media max-width768px {
+
+    body {
+
+        min-width: 320px;
+
+        max-width: 768px;
+
+    }
+
+
+    .defaultContentWidth,#directory-search .defaultContentWidth {
+
+        max-width: 768px;
+
+        width: auto;
+
+    }
+
+
+    
+
+    #logo {
+
+        float: none;
+
+        padding: 35px 25px;
+
+    }
+
+    
+
+    #logo img {
+
+        margin: 0 auto;
+
+        text-align: center;
+
+    }
+
+}
+
+
+
+@media max-width650px {
+
+    body {
+
+        max-width: 650px;
+
+    }
+
+    
+
+    .defaultContentWidth,#directory-search .defaultContentWidth {
+
+        max-width: 650px;
+
+        width: auto;
+
+    }
+
+}
+
+
+
+@media max-width497px {
+
+    body {
+
+        max-width: 480px;
+
+    }
+
+    
+
+    .defaultContentWidth,#directory-search .defaultContentWidth {
+
+        max-width: 480px;
+
+        width: auto;
+
+    }
+
+  
+
+    #logo {
+
+        float: none;
+
+        padding: 20px 0;
+
+        max-width: 480px;
+
+    }
+
+    
+
+    #logo img {
+
+        margin: 0 auto;
+
+    }
+
+ }

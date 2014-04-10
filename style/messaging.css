@@ -1,0 +1,53 @@
+.msg{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: black;
+//	border: 1px solid black;
+	min-height: 40px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.employer{
+//	border: 1px solid red;
+	width: 90%;
+	float: left;
+}
+
+.employer p{
+	max-width: 80%;
+	width: auto;
+	float: left;
+	margin-left: 2px;
+//	border: 1px solid black;
+}
+
+.employer img{
+	float: left;
+}
+
+.employee{
+	width: 90%;
+	float: right;
+//	border: 1px solid black;
+}
+
+.employee p {
+	max-width: 80%;
+	width: auto;
+	float: right;
+	margin-right: 10px;
+//	border: 1px solid black;
+	text-align: justify;
+}
+
+.employee img{
+	float: right;
+}
+
+.empic {
+	height: 40px;
+	width: 40px;
+	float: left;
+	margin-right: 10px;
+}

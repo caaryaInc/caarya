@@ -1,0 +1,191 @@
+#regcontainer {
+	position:absolute;
+	bottom:0;
+	width: 100%;
+	z-index: 1;
+	font-family: Lato;
+}
+
+#regopen {
+//	border : 1px solid blue;
+  	width: 90%;
+	height: 40%;
+	text-align: center;
+	color: #ffffff;
+	padding: 4% 1% 6% 9%;
+	font-weight:  500;
+	position: relative;
+	letter-spacing: 0.5px;
+	font-size: 23px;
+	cursor: pointer;
+}
+
+#regopen a{
+	text-decoration:none;
+	color: #fff;
+}
+
+#regopen span {
+	background-image: url("img/tipsy-north.png");
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	padding: 8px 16px 15px 0;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 25px;
+}
+
+#regcontainer #regarea {
+	display: none;
+//	border: 1px solid black;
+	width: 245.5px;
+	margin-left: 2px;
+}
+
+#signin_menu {
+	background: -moz-linear-gradient(top, #97d472 0%, #529241 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#97d472), color-stop(100%,#529241)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #97d472 0%,#529241 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #97d472 0%,#529241 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #97d472 0%,#529241 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #97d472 0%,#529241 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97d472', endColorstr='#529241',GradientType=0 ); /* IE6-8 */
+	border-top-left-radius:4px;
+	border-top-right-radius: 4px;
+	text-align: left;
+	padding: 12px;
+	color: #789;
+	font-size: 11px;
+//	border: 1px solid black;
+	font-family: Lato;
+}
+
+#signin_menu input[type=text], #signin_menu input[type=password] {
+	display: block;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #ACE;
+	font-size: 13px;
+	margin: 0 0 5px;
+	padding: 5px;
+	width: 210px;
+}
+
+#signin_menu p {
+	margin: 0;
+}
+
+#signin_menu a {
+	color: #6AC;
+}
+
+#signin_menu label {
+	font-weight: normal;
+	color: #000;
+}
+
+#signin_menu p.remember {
+	padding: 10px 0;
+}
+
+#signin_menu p.forgot, #signin_menu p.complete {
+	clear: both;
+	margin: 5px 0;
+}
+
+#signin_menu p a {
+	color: #27B!important;
+}
+
+
+#signin_submit {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	/* background: #39d url('img/bg-btn-blue.png') repeat-x scroll 0 0; */
+	background: -webkit-linear-gradient(top, rgb(115, 172, 75), rgb(96, 144, 63));
+	background: -moz-linear-gradient(top, rgb(115, 172, 75), rgb(96, 144, 63));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97d472', endColorstr='#529241',GradientType=0 ); /* IE6-8 */
+	background: -o-linear-gradient(top, #97d472 0%,#529241 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #97d472 0%,#529241 100%); /* IE10+ */
+	border: 1px solid rgb(91, 136, 60);
+	border-image: initial;
+	/* border: 1px solid #39D; */
+	color: #fff;
+	text-shadow: 0 -1px 0 #39d;
+	padding: 4px 10px 5px;
+	font-size: 11px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+
+#signin_submit::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+#signin_submit:hover, #signin_submit:focus {
+	background-position: -5px 0;
+	cursor: pointer;
+}
+
+#signin_password_errorloc, #signin_confpassword_errorloc,#signin_email_errorloc {
+    clear: both;
+	display: block;
+}
+
+
+.error {
+	color: red;
+	font-style: italic;
+	margin-bottom: 2px;
+}
+
+#email{
+	padding-right: 26px;
+	border: 1px solid black;
+}
+
+#check{
+width: 23px; 
+height: 26px; 
+display: inline-block;
+border: 1px solid black;
+background-color: #fff;
+border: 1px solid #ACE;
+border-left: none;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+} 
+
+
+/* For notification */		
+div#popup {
+	display: none;
+	position: absolute;
+	width: 280px;
+	padding: 10px;
+	background: #eeeeee;
+	color: #000000;
+	border: 1px solid #1a1a1a;
+	font-size: 90%;
+	text-align: left;
+	left: 0px;
+	top: -200px;
+}
+
+div#popup h3 {
+	color: red;
+}
+
+#popup span.cancel {
+	padding: 0 5px;
+	cursor: pointer;
+	float: right;
+	margin-right: 10px;
+}
+
+#popup a {
+	color:black;
+	text-decoration:none;
+	font-weight:bold
+}

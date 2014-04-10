@@ -1,0 +1,163 @@
+html, body {
+	position: relative;
+	text-align: center;
+	border: 1px solid black;
+	height: 100%;
+}
+
+#container {
+	height: 100%;
+	//border: 1px solid blue;
+}
+
+#pagewrap {
+	text-align: left;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin-left: 0px;	
+//	border: 1px solid red;
+}
+
+#toplayer{
+	//border: 1px solid green;
+	height: 75%;
+}
+
+#bottomlayer{
+	//border: 1px solid black;
+	height: 25%;
+}
+
+
+#mapholder {
+	position: relative;
+	width: 100%; 
+	height: 100%;
+}
+
+#map {
+	overflow: hidden;
+	height: 98%;  
+}
+
+#confirmmsg{
+	position: absolute;
+    text-align: center;
+	height: 10%;
+	z-index: 100;
+	border: 1px solid black;
+	width: 100%;
+	background-color: #000;
+	opacity: 0.7;
+}
+
+#searchbox{
+	position: absolute;
+	z-index: 20;
+	float: left;
+	background: -webkit-linear-gradient(top,rgb(253,253,253), rgb(241,239,239));
+	background: -moz-linear-gradient(top,rgb(253,253,253), rgb(241,239,239));
+	height: 67%;
+	width: 360px;
+	top: 3.5%;
+	left: 6%;
+	bottom: 5%;
+}
+
+/* For search form */
+
+#searchbar{
+	border: 1px solid #7e7e7e;
+	width: 72%;
+	color: rgb(199, 199,199);
+	font-size: 14px;
+	box-shadow: inset 0 0 10px -10px -10px #dadada;
+	-moz-box-shadow:    inset 0 0 10px -10px #dadada;
+	-webkit-box-shadow: inset 0 0 10px -10px #dadada;
+}
+
+#searchbutton{
+	background: rgb(103, 162, 50);
+	width: 28%;
+	position: absolute;
+	right: 0px;
+	top: -2px;
+	padding: 4px;
+	color: rgb(248, 249, 244);
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#dropdownoptions{
+	height: 50px;
+}
+
+.ddboxes{
+	display: inline-block;
+	margin: 3.5% 1.5% 0% 1.5%;
+	width: 25%;
+	vertical-align: top;
+	background: -webkit-linear-gradient(top,rgb(238,238,238), rgb(245,245,245));
+	background: -moz-linear-gradient(top,rgb(238,238,238), rgb(245,245,245));
+}
+
+
+.selectstyle select {
+   background: transparent;
+   width: 100%;
+   height: 100%;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+	border: 0px transparent;
+}
+
+.arrow{
+  float: right;
+  width: 0; 
+  height: 0;
+  border-top: 10px solid grey;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-top: -14px;
+  margin-right: 3px;
+ }
+
+
+#mpicon{
+	margin: 8px 5px 12px 0px;
+	height: 60%;
+	width: 8%;
+	display: inline-block;
+	background: -webkit-linear-gradient(top,rgb(238,238,238), rgb(245,245,245));
+	background: -moz-linear-gradient(top,rgb(238,238,238), rgb(245,245,245));
+}
+
+#pin{
+	padding: 2px 0px 2px 7px;
+	height: 60%;
+	width: 50%;
+}
+
+
+
+
+#btnpanel{
+	border: 1px solid #b3b3b3;
+	border-right: 0px transparent;
+}
+
+.panelbutton{
+	display: inline-block;
+	margin: 0px;
+	width: 14%;
+	vertical-align: top;
+	height: 50px;
+	background-color: rgb(221,232,236);
+	text-align: center;
+	margin-right: -4px;
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+

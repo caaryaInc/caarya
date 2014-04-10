@@ -1,0 +1,3 @@
+AuthName "caarya"
+AuthUserFile "/home/caarya5/.htpasswds/public_html/caarya/passwd"
+Options -Indexes

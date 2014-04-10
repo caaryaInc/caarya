@@ -1,0 +1,34 @@
+#archivesoc{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+}
+
+#archiveslp{
+	float: left;
+	height: 100%;
+	width: 420px;
+	border: 1px solid blue;
+}
+
+#archivesrp{
+	float: right;
+	height: 100%;
+	width: 69.5%;
+	border: 1px solid blue;
+}
+
+#archivespos{
+	width: 100%;
+	height: 50%;
+	border: 1px solid red;
+	overflow: auto;
+}
+
+#archivesapp{
+	width: 100%;
+	height: 49.5%;
+	border: 1px solid red;
+}
+	

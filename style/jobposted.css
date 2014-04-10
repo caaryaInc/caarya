@@ -1,0 +1,265 @@
+#jobspostedcontainer{
+//	border: 1px solid blue;
+	width: 1220px;
+	height: 500px;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-left: 0px;
+	padding-top: 0px;
+}
+
+.colmiddle{
+	height: 440px;
+	width: 380px;
+	margin-top: 3px;
+	display: inline-block;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #fff;
+	border-right: 1px solid #d8d8d8;
+//	border: 1px solid black;
+}
+
+.colright{
+	width: 380px;
+	float: right;
+	height: 440px;
+	border-right: 1px solid #d8d8d8;
+}
+
+#appinfo {
+	position: relative;
+	text-align: justify;
+//	border: 1px solid black;
+	width: 225px;
+	margin-top: 90px;
+	margin-left: 750px;
+}
+
+#appinfo img{
+	width: 225px;
+	height: 225px;
+}
+
+#appinfo p{
+	font-size: 13px;
+	font-family: Arial;
+	text-align: center;
+	color: #666;
+}
+
+
+#jposted{
+	border-right: 1px solid #d8d8d8;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	width: 420px;
+	height: 417px;
+	margin-top: 3px;
+	padding-top: 23px;
+	overflow: auto;
+	float: left;
+	//background-color: #fff;
+}
+
+
+.candidatesfor{
+//	border: 1px solid red;
+	position: absolute;
+	margin-top: 0px;
+}
+
+.canddiv{
+//	border: 1px solid black;
+	width: 100%;
+}
+
+#candidates{
+	margin: 0px;
+//	border: 1px solid red;
+	padding: 6px;
+	width: 358px;
+	height: 65px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #666;
+	//vertical-align: middle;
+	cursor: pointer;
+}
+
+#candidates .picholder{
+	width: 55px;
+	height: 77px;
+//	border: 1px solid black;
+}
+
+#candidates .propic{
+	border: 2px solid #aeaeae;
+}
+
+#candidates .propic img{
+	height: 55px;
+	width: 55px;
+}
+
+#candidates .jname{
+//	border: 1px solid black;
+	vertical-align: top;
+	margin: 10px;
+	margin-top: 5px;
+	display: inline-block;
+	color: #333;
+	font-size: 15px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(51,51,51,.7);
+	font-family: Calibri;
+	height: 20px;
+	width: 150px;
+}
+
+#assignbutton{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7fc542), color-stop(1, #93cc5e) );
+	background:-moz-linear-gradient( center top, #7fc542 5%, #93cc5e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7fc542', endColorstr='#93cc5e');
+	background-color:#7fc542;
+	border: 1px solid #7fc542;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	width: 87px;
+	padding: 6px 4px 6px 4px;
+	cursor: pointer;
+	display: block;
+	float: right;
+	margin-right: 2px;
+	margin-top: 33px;
+}
+
+#assignbutton:hover{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #66a232), color-stop(1, #7fc542) );
+	background:-moz-linear-gradient( center top, #66a232 5%, #7fc542 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66a232', endColorstr='#7fc542');
+	background-color:#66a232;
+}
+
+.proftopbar{
+	height: 50px;
+	margin-top: 0px;
+	width: 340px;
+	margin-left: 0px;
+//	border: 1px solid black;
+}
+
+#msgicon{
+	float: left;
+	margin-left: 50px;
+}
+
+#proficon{	
+	display: inline-block;
+	margin-left: 70px;
+}
+
+#testiicon{
+	float: right;
+	margin-right: 50px;
+}
+
+#profintro{
+	position: relative;
+	text-align: justify;
+	//border: 1px solid black;
+	width: 200px;
+	line-height: 20px;
+	margin-top: 25%;
+	left: 25%;
+}
+
+#profintro img{
+	margin-left: 50px;
+}
+
+#msgsexchanged{
+//	border: 1px solid black;
+	height: 100%;
+	width: 100%;
+	margin-left: 0%;
+}
+
+#showmsg{
+	width: 360px;
+	height: 310px;
+	padding-bottom: 5px;
+	background: #fff;
+	margin-bottom: 25px;
+	overflow: auto;
+//	border: 1px solid black;
+}
+
+#msgform{
+	height: 40px;
+	width: 360px;
+	margin-top: 10px;
+}
+
+#msgarea{
+	border: 1px solid #ccc;
+	float: left;
+	height: 100%;
+	width: 290px;
+}
+
+.sendmsgbtn{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7fc542), color-stop(1, #93cc5e) );
+	background:-moz-linear-gradient( center top, #7fc542 5%, #93cc5e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7fc542', endColorstr='#93cc5e');
+	background-color:#7fc542;
+	border: 1px solid #7fc542;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	cursor: pointer;
+	float: right;
+	padding: 1px 2px 2px;
+	margin-top: 8px;
+}
+
+#aheader{
+//	border: 1px solid #c7c7c7;
+	color: #000;
+	margin-bottom: 8px;
+	margin-top: -5px;
+}
+
+#aheader p{
+	margin-left: 12px;
+	font-size: 15px;
+	color: rgb(122,122,122);
+	font-weight: bold;
+	font-family: Calibri;
+}
+
+/* For Scroll Bar*/
+	
+.scrollbar.simple{
+	height: 370px;
+	width:80%;
+	overflow:hidden;
+//	background:#EEE;
+	-moz-box-shadow:none;
+//	border:1px solid black;
+}
+
+
+/* For Ads */
+#adspace{
+//	border: 1px solid black;
+	height: 90%;
+	width: 21%;
+	position: absolute;
+	right: 0px;
+}

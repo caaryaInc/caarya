@@ -1,0 +1,125 @@
+#login{
+	font-family: Lato;
+}
+
+#password, #emaillogin, #password-clear {
+	color: #777;
+	width: 142px;
+	font-size: 12.5px;
+	border-color: #bdc7d8;
+	-webkit-border-radius: 1.2px;
+	margin: 0;
+	font-family: Lato;
+	text-align: left;
+	height: 20px;
+	padding-left: 10px;
+}
+
+.container a {
+	color: #000;
+	float: left;
+	font-size: 13px;	
+	font-family: 'PT Sans', sans-serif;
+}
+
+.custombutton {
+	height: 30px;
+	margin-left: 25px;
+	color: #ffffff;
+ 	padding: 3px 23px 5px 27px; 
+	background: -moz-linear-gradient(top, #73a257 0%, #73a257 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#73a257), color-stop(100%,#73a257)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #73a257 0%,#73a257 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #73a257 0%,#73a257 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #73a257 0%,#73a257 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #73a257 0%,#73a257 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73a257', endColorstr='#73a257',GradientType=0 ); /* IE6-8 */
+	background-color: rgb(115,162,87);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: none;
+	border-radius: 3px;
+	-moz-box-shadow:
+		0px 2px 3px rgba(0, 0, 0, 0.7),
+		inset 0px 0px 0px rgba(255, 255, 255, 0);
+	-webkit-box-shadow:
+		0px 2px 3px rgba(0, 0, 0, 0.7),
+		inset 0px 0px 0px rgba(255, 255, 255, 0);
+	box-shadow:
+		0px 1px 7px rgba(0,0,0,0.54);
+	text-shadow:
+		0px 1px 3px rgba(0, 0, 0, 1),
+		0px 0px 6px rgba(0 ,0 ,0, 0.5);
+	font: 16px Calibri;
+}
+
+input.custombutton:hover {
+	cursor: pointer;
+	background: -moz-linear-gradient(
+		top,
+		rgb(115, 162, 87) 0%,
+		#6dbd33);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(rgb(115, 162, 87)),
+		to(#67ad35));
+}
+
+input.custombutton:active {
+	background: -moz-linear-gradient(
+		top,
+		#69a73c 0%,
+		#6dbd33);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#6dc62d),
+		to(#54a818));
+}
+
+#emailcont {
+	float: left;
+}
+
+#passcont{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+/* For notification */
+
+div#pop-up {
+	display: none;
+	position: absolute;
+	width: 280px;
+	padding: 10px;
+	background: #eeeeee;
+	color: #000000;
+	border: 1px solid #1a1a1a;
+	font-size: 90%;
+	right: 0px;
+	top: 0px;
+	text-align: left;		
+}
+
+div#pop-up h3 {
+	color: red;
+}
+
+#pop-up span.dismiss {
+	padding:0 5px;
+	cursor:pointer;
+	float:right;
+	margin-right:10px;
+}
+
+#pop-up a {
+	color:black;
+	text-decoration:none;
+	font-weight:bold
+}
+
+@media (max-width: 800px) {
+	div#pop-up{
+		right: 210px;
+	}
+}

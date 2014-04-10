@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> - jsFiddle demo</title>
+  
+  <script type='text/javascript' src='http://code.jquery.com/jquery-1.5.2.js'></script>
+  
+	  	<link rel="STYLESHEET" type="text/css" href="style/login_box.css" />   
+       <!-- <script type='text/javascript' src='scripts/gen_validatorv31.js'></script> -->
+		  <script type='text/javascript' src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.js"></script>
+  
+  
+    
+    
+      <script type='text/javascript' src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.js"></script>
+    
+  <!--
+  <style type='text/css'>
+    input{ padding:5px; border:1px solid #AA0; font-size:11px; margin:5px;}
+.pleasefillfield{background:red;color:red}
+  </style> -->
+  
+
+
+<script type='text/javascript'>//<![CDATA[ 
+$(window).load(function(){
+    var doClear=function (field) { if (field.value == field.defaultValue) { field.value = "";$(field).removeClass('pleasefillfield') } };
+    var doDefault=function (field) { if (field.value == "") { field.value = field.defaultValue; $(field).addClass('pleasefillfield')} };
+
+$('input[type="text"]').focus(function(){
+    doClear(this);
+})
+
+$('input[type="text"]').blur(function(){
+    doDefault(this);
+})
+    
+$('input[type="text"]').each(function(){
+    this.defaultValue="please enter "+$(this).attr('name');
+})
+    
+    $('form').submit(function(){
+       var errors=0;
+       var form=this;
+       $('input[type="text"]').each(function(){
+           if(this.value==""||this.value==this.defaultValue) 
+               {errors+=1;
+                doDefault(this);
+               }
+       })
+ 
+       if (!errors){
+           alert('Ok');
+        //form.submit()   
+       } else{
+           alert("errors: "+errors);
+       } 
+ 
+       return false;
+    })    
+
+
+
+
+});//]]>  
+
+</script>
+
+
+</head>
+<body>
+
+  <form action="#" method="post">
+<input type="text" name="username" value="" size="30"/><br/>
+<input type="text" name="userpassword" value="" size="30"/><br/>
+<input type="submit" value="Submit" />
+</form>  
+
+<!-- This is the form to enter login details -->
+			
+			<!--
+				<form id='login' action='login_box.php' method='post' accept-charset='UTF-8'>
+			
+					
+				
+				
+				
+				<input type='hidden' name='loginsubmitted' id='loginsubmitted' value='1'/>
+			
+				
+			
+				 
+				<div id="errmsg" style="DISPLAY: none">
+				
+			   </div>
+				
+				
+				
+			
+				<div  id="email" class='container'> 
+					<ul>
+						<li> <input   style="color: #333; " type='text' name='emaillogin' id='emaillogin' value='Enter your Email' maxlength="50"  /></li>
+						<li style="margin-top: 5px;">
+							<p class="login-remember">
+								<a>
+								<input name="rememberme" type="checkbox" id="rememberme" value="forever"/>
+								Remember me </a>
+							</p>
+						</li>
+
+						
+					</ul>
+					<div id='login_emaillogin_errorloc' class='error'></div> 
+				</div> 
+				
+				 <div id="pass" class='container'>
+				 <ul>
+					<li> <input   style="height: 30px;" type='password' name='password' id='password'  maxlength="50" />  </li>
+					<li style="margin-top: 5px;"> <a href='reset-pwd-req.php'>Forgot Password?</a>  </li>
+				<ul>
+					
+					
+					<div id='login_password_errorloc' class='error'></div>
+					
+				 </div> 
+
+			
+					<div style="display:inline-block; vertical-align:top;">
+					<input  type='submit' name='Submit' class="custombutton" value='Login'/> 
+					</div>
+					
+				
+				  
+							
+				
+				
+				</form>
+				-->
+				
+  
+</body>
+
+
+</html>
+
+
+
